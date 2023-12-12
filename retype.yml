@@ -1,11 +1,13 @@
 input: .
 output: .retype
-url: # Add your website address here
+url: docs.bagelindustries.com
 branding:
   title: Bagel Industries
   label: Docs
-links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+
+# add links to selfhosted sites once they exist.
+# links:
+# - text: Getting Started
+#   link: https://retype.com/guides/getting-started/
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
