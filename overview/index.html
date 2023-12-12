@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755661178376">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755669316918">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.755661178376" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.755669316918" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755661178376" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755669316918" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755661178376" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755669316918" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -167,23 +167,23 @@
     </div>
 </div>
 
-<p>I run as much as possible in docker. There are many things that couldn&#x27;t be dockerized so I abandoned them for months (eg, Pterodactyl Panel).</p>
+<p>I run <ins><strong>as much as possible</strong></ins> in docker. There are many things that couldn&#x27;t be dockerized so I abandoned them for months (eg, Pterodactyl Panel).</p>
 <p>Currently, I manage everything through <a href="portainer/">Portainer</a>, a GUI for docker.</p>
-<p>I have a total of three devices I run software on often:</p>
-<ul>
-<li>1x Raspberry Pi 3, used for <a href="../docker/">Home Assistant</a></li>
-<li>1x Raspberry Pi 2, used for <a href="/printer">my 3d printer</a></li>
-<li>1x Dell Inspiron 20 Model 3048 01 All-In-One desktop, hereby known as <code v-pre>inspiron-server</code>.</li>
-</ul>
+<doc-anchor-target id="devices-used">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#devices-used">#</doc-anchor-trigger>
+        <span>Devices Used:</span>
+    </h2>
+</doc-anchor-target>
 <dl>
-<dt>Raspberry Pi 2</dt>
+<dt><strong>1x Raspberry Pi 2</strong></dt>
 <dd>
 <blockquote>
 <p>Runs Klipper with Mainsail on my Ender 3 3d printer.
 Used only for this</p>
 </blockquote>
 </dd>
-<dt>Raspberry Pi 3</dt>
+<dt><strong>1x Raspberry Pi 3</strong></dt>
 <dd>
 <blockquote>
 <p>I run Home Assistant on this along with a few add-ons:</p>
@@ -194,19 +194,28 @@ Used only for this</p>
 </ul>
 </blockquote>
 </dd>
-<dt>Dell Inspiron All-In-One 3048 01</dt>
+<dt><strong>1x Dell Inspiron All-In-One 3048 01</strong></dt>
 <dd>
 <blockquote>
 <p>I use this for the bulk of my hosting.
-<strong>Referred to as <code v-pre>inspiron-server</code>.</strong></p>
+<strong>Referred to as <code v-pre>inspiron-server</code>.</strong>
+It runs:</p>
+<ul>
+<li>Nextcloud</li>
+<li>Authentik</li>
+<li>Nginx Proxy Manager</li>
+<li><a href="/emulation/">Emulation</a></li>
+<li>Plex (and all of that stack)</li>
+<li>Wyoming-Wisper and Wyoming-Piper</li>
+</ul>
 </blockquote>
 </dd>
 </dl>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -215,7 +224,8 @@ Used only for this</p>
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>It should be noted I do also host some things using Oracle Cloud, described more in <a href="/cloud-computing">Cloud Computing</a></p>
+<p>It should be noted I do also host some things using Oracle Cloud, described more in <a href="/cloud-computing">Cloud Computing</a>.</p>
+<p>This entire documentation site is also hosted in <a href="https://pages.github.com/">Github Pages</a> for high availability and reduced load.</p>
         </div>
     </div>
 </div>
@@ -238,10 +248,10 @@ Used only for this</p>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../home-automation/home-assistant/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../overview/portainer/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Home Assistant</span>
+                                                <span class="block mt-1">Portainer</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
