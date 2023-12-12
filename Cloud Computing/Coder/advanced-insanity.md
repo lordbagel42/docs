@@ -1,6 +1,5 @@
 ---
 author: Raygen Rupe
-visibility: hidden
 Title: Advanced Insanity
 ---
 

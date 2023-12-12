@@ -14,6 +14,8 @@ Please go to [the Overview](/overview) to get started.
    - [ ] Home Automation
    - [ ] Nginx Proxy Manager
    - [ ] Coder
+   - [ ] Oracle
+   - [ ] GCP
    - [ ] Nextcloud
    - [ ] Plex (plex, qbittorrent, sonarr, radarr, tautulli, overseerr, prowlarr)
    - [ ] AdGuardHome

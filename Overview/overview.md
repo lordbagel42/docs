@@ -22,13 +22,14 @@ Currently, I manage everything through [Portainer](/overview/portainer), a GUI f
 **1x Dell Inspiron All-In-One 3048 01**
 :   > I use this for the bulk of my hosting.
     > **Referred to as `inspiron-server`.**
-    > It runs:
+
+    > Operating system is Ubuntu Server 22.04, running:
     > - Nextcloud
     > - Authentik
     > - Nginx Proxy Manager
-    > - [Emulation](/emulation/)
+    > - The [Emulation](/emulation/) Stack
     > - Plex (and all of that stack)
-    > - Wyoming-Wisper and Wyoming-Piper
+    > - Wyoming-Whisper and Wyoming-Piper
 
 !!!info
 It should be noted I do also host some things using Oracle Cloud, described more in [Cloud Computing](/cloud-computing).

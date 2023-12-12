@@ -15,3 +15,8 @@ Checklist:
    - [ ] Google Home
    - [ ] Local voice assistants
    - [ ] Smart lighting
+
+Name   | Value
+---    | ---
+HASS Web Interface | 8123:8123
+HASS Observer Interface | 4357:4357

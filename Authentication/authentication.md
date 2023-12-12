@@ -2,4 +2,4 @@
 author: Raygen Rupe
 ---
 
-Ephemeral Workspaces.
+authentik is cool.

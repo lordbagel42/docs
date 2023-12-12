@@ -1,4 +1,5 @@
 ---
 author: Raygen Rupe
-visibility: hidden
 ---
+
+I run a Pterodactyl game server on Oracle Cloud along with a Coder satellite.
